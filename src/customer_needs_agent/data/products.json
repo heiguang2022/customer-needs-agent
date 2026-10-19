@@ -1,0 +1,135 @@
+[
+  {
+    "id": "crm-starter",
+    "name": "启航 CRM",
+    "category": "CRM",
+    "annual_price": 18000,
+    "industries": ["通用", "零售", "专业服务"],
+    "capabilities": ["客户管理", "销售漏斗", "线索管理", "移动办公"],
+    "delivery_days": 5,
+    "suitable_company_sizes": ["小微", "中小"],
+    "limitations": ["不含复杂渠道管理", "标准版仅支持 30 个账号"]
+  },
+  {
+    "id": "crm-enterprise",
+    "name": "纵横 CRM 企业版",
+    "category": "CRM",
+    "annual_price": 98000,
+    "industries": ["通用", "制造", "金融", "专业服务"],
+    "capabilities": ["客户管理", "销售预测", "渠道管理", "审批流", "开放 API"],
+    "delivery_days": 21,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["首次实施需要业务流程梳理"]
+  },
+  {
+    "id": "erp-light",
+    "name": "云帆进销存",
+    "category": "ERP",
+    "annual_price": 26000,
+    "industries": ["零售", "贸易", "通用"],
+    "capabilities": ["采购管理", "库存管理", "销售管理", "财务对账"],
+    "delivery_days": 7,
+    "suitable_company_sizes": ["小微", "中小"],
+    "limitations": ["不支持复杂生产排程"]
+  },
+  {
+    "id": "erp-manufacturing",
+    "name": "智造 ERP",
+    "category": "ERP",
+    "annual_price": 168000,
+    "industries": ["制造"],
+    "capabilities": ["生产计划", "物料需求", "库存管理", "质量管理", "成本核算"],
+    "delivery_days": 45,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["需要主数据治理", "标准实施周期较长"]
+  },
+  {
+    "id": "collab-team",
+    "name": "同心协作空间",
+    "category": "协作办公",
+    "annual_price": 12000,
+    "industries": ["通用"],
+    "capabilities": ["即时沟通", "文档协作", "任务管理", "视频会议"],
+    "delivery_days": 2,
+    "suitable_company_sizes": ["小微", "中小", "中型"],
+    "limitations": ["高级审计需购买扩展包"]
+  },
+  {
+    "id": "collab-governance",
+    "name": "协同办公治理版",
+    "category": "协作办公",
+    "annual_price": 72000,
+    "industries": ["通用", "金融", "医疗"],
+    "capabilities": ["文档协作", "统一身份", "内容审计", "数据防泄漏", "审批流"],
+    "delivery_days": 14,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["需要对接企业身份系统"]
+  },
+  {
+    "id": "service-desk",
+    "name": "灵犀智能客服",
+    "category": "客服",
+    "annual_price": 36000,
+    "industries": ["电商", "零售", "通用"],
+    "capabilities": ["在线客服", "工单管理", "知识库", "服务报表"],
+    "delivery_days": 7,
+    "suitable_company_sizes": ["中小", "中型"],
+    "limitations": ["语音坐席按并发数另行计费"]
+  },
+  {
+    "id": "contact-center",
+    "name": "全渠道联络中心",
+    "category": "客服",
+    "annual_price": 128000,
+    "industries": ["金融", "电商", "零售", "通用"],
+    "capabilities": ["在线客服", "呼叫中心", "工单管理", "质检", "客户画像"],
+    "delivery_days": 30,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["呼叫线路费用不含在软件订阅中"]
+  },
+  {
+    "id": "security-baseline",
+    "name": "安盾终端防护",
+    "category": "安全",
+    "annual_price": 42000,
+    "industries": ["通用"],
+    "capabilities": ["终端防护", "漏洞管理", "资产盘点", "安全告警"],
+    "delivery_days": 5,
+    "suitable_company_sizes": ["中小", "中型"],
+    "limitations": ["不含全天候安全运营服务"]
+  },
+  {
+    "id": "security-soc",
+    "name": "云卫士安全运营平台",
+    "category": "安全",
+    "annual_price": 198000,
+    "industries": ["金融", "医疗", "制造", "通用"],
+    "capabilities": ["安全运营", "日志审计", "威胁检测", "合规报表", "应急响应"],
+    "delivery_days": 30,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["需要部署日志采集组件"]
+  },
+  {
+    "id": "analytics-bi",
+    "name": "数见 BI",
+    "category": "数据分析",
+    "annual_price": 58000,
+    "industries": ["通用", "零售", "制造"],
+    "capabilities": ["数据看板", "自助分析", "经营报表", "数据预警"],
+    "delivery_days": 14,
+    "suitable_company_sizes": ["中小", "中型"],
+    "limitations": ["数据仓库建设不在标准订阅范围内"]
+  },
+  {
+    "id": "analytics-enterprise",
+    "name": "洞察数据中台",
+    "category": "数据分析",
+    "annual_price": 238000,
+    "industries": ["零售", "制造", "金融", "通用"],
+    "capabilities": ["数据集成", "指标管理", "自助分析", "数据治理", "开放 API"],
+    "delivery_days": 60,
+    "suitable_company_sizes": ["中型", "大型"],
+    "limitations": ["需要专职数据团队配合实施"]
+  }
+]
+
